@@ -1,3 +1,5 @@
+#!/usr/bin/env node --no-warnings=ExperimentalWarnings
+
 /**
  * HACK!!!!!! This is a trash implementation since the adopted dogs are hardcoded since they are injected via the script tag below beause this is a cursed React implementation or something.
  */

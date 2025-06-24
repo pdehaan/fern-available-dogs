@@ -1,3 +1,5 @@
+#!/usr/bin/env node --no-warnings=ExperimentalWarnings
+
 import fs from "node:fs/promises";
 import type { Dog } from "./lib.ts";
 

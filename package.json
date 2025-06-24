@@ -14,9 +14,9 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "start": "node --no-warnings=ExperimentalWarnings index.ts",
     "adopted": "node --no-warnings=ExperimentalWarnings adopted.ts",
     "available": "node --no-warnings=ExperimentalWarnings available.ts",
+    "start": "node --no-warnings=ExperimentalWarnings index.ts",
     "test": "tsc"
   },
   "type": "module"
