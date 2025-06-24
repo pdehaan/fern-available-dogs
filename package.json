@@ -1,0 +1,23 @@
+{
+  "name": "fern-available-dogs",
+  "description": "",
+  "version": "1.0.0",
+  "author": "",
+  "dependencies": {
+    "cheerio": "^1.1.0",
+    "lru-cache": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarnings index.ts",
+    "adopted": "node --no-warnings=ExperimentalWarnings adopted.ts",
+    "available": "node --no-warnings=ExperimentalWarnings available.ts",
+    "test": "tsc"
+  },
+  "type": "module"
+}
