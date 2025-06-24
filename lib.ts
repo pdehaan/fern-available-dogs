@@ -39,8 +39,8 @@ export class Cache {
       // Import the local cache file...
       await import(cacheFile, { with: { type: "json" } })
         // ... then populate the cache.
-        .then((data) => this.cache.load(data.default))
-        .catch((err) => {
+        .then((data: any) => this.cache.load(data.default))
+        .catch((_err: Error) => {
           /* Ignore error. Probably just missing cache file */
         });
     }
